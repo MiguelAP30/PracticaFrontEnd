@@ -1,4 +1,5 @@
 import "../styles/principal.css";
+
 export const Principal = () => {
     return (
         <main className="main">

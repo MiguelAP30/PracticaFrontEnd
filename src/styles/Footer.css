@@ -1,10 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 .footer{
-    width: 98%;
-    max-width: 1200px;
+    width: 100%;
+    height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
-    border-radius: 10px;
-    background: #2e5adf;
+    background: #17455A;
+    margin: 0;
+}
+
+.asidefooter{
+    display: flex;
+    margin-top: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.redes h4{
+    display: flex;
+    flex-direction: column;
+    font-weight: 540;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.sectionright{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.github{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.link{
+    color: rgb(222, 213, 213);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(30, 21, 209);
+    text-decoration: underline;
 }
