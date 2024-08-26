@@ -16,20 +16,106 @@ html, body {
 .main .aside {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 35%;
-    background: #011627;
     align-items: center;
+    justify-content: flex-start;
+    width: 44%;
+    background: #011627;
     margin: 0; 
     padding: 0;
+}
+
+.aside h1 {
+    color: #00a2ff;
+    margin-top: 60px;
+    padding: 0;
+    font-size: 80px;
+    text-decoration: 2px solid underline rgb(255, 0, 212);
+    text-underline-position: under;
+    text-underline-offset: 10px;
+    
+}
+
+.aside p {
+    color: #c5c0c0;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: Jost, sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(indigo, rgb(30, 66, 176));
+    color: white;
+    border-radius: 20px;
 }
 
 .main .principal {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65%;
+    flex-direction: column;
+    width: 56%;
     background: #011627;
     margin: 0;
+    padding: 0;
+}
+
+.sectioncards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 0;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #8800ff;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    box-shadow: 0 2px 4px rgba(255, 4, 4, 0.1);
+    transition: transform 0.2s;
+    background-color: #000000;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: aqua;
+    margin: 0 0 8px;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin-top: 6px;
+    color: #c5c0c0;
+    font-family: Jost, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(rgb(211, 8, 237) 50%, rgb(70, 112, 228) 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.sectioncards h1 {
+    color: #00a2ff;
+    margin: 20px;
     padding: 0;
 }
